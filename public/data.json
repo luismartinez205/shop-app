@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Camiseta Negra",
+      "price": 19.99,
+      "category": "Ropa",
+      "description": "Camiseta de algodón 100%, talla M.",
+      "image": "https://via.placeholder.com/200x200?text=Camiseta"
+    },
+    {
+      "id": 2,
+      "name": "Zapatos Deportivos",
+      "price": 49.99,
+      "category": "Calzado",
+      "description": "Zapatos cómodos para correr.",
+      "image": "https://via.placeholder.com/200x200?text=Zapatos"
+    },
+    {
+      "id": 3,
+      "name": "Gorra Estilo Urbano",
+      "price": 14.99,
+      "category": "Accesorios",
+      "description": "Gorra ajustable con estilo moderno.",
+      "image": "https://via.placeholder.com/200x200?text=Gorra"
+    }
+  ]
+  

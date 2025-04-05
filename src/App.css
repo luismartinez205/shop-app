@@ -27,12 +27,36 @@
 .App-link {
   color: #61dafb;
 }
+.title{
+  font-size: 2.5rem;
+  color: rgb(43, 38, 38);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Roboto', Courier, monospace;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.shop-button{
+  background-color: #5433eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+.shop-button:hover{
+  background-color: #3819c4;
 }

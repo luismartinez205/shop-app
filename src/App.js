@@ -1,24 +1,44 @@
-import logo from './logo.svg';
+
+
 import './App.css';
+import './Nav.css';
+import Nav from './nav';
+import React from 'react';
+import { Carousel } from 'antd';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <div className="">
+      <Nav />
+ 
+  <Carousel autoplay>
+      <div>
+       < img src="https://gdmiamiyorlando.b-cdn.net/wp-content/uploads/2018/08/SEARS-loja-miami-orlando.jpg" alt="img" className='carusel' />
+      </div>
+      <div>
+      < img src="https://gdmiamiyorlando.b-cdn.net/wp-content/uploads/2018/08/SEARS-loja-miami-orlando.jpg" alt="img" className='carusel' />
+ 
+      </div>
+      <div>
+      < img src="https://gdmiamiyorlando.b-cdn.net/wp-content/uploads/2018/08/SEARS-loja-miami-orlando.jpg" alt="img" className='carusel' />
+
+      </div>
+      <div>
+      < img src="https://gdmiamiyorlando.b-cdn.net/wp-content/uploads/2018/08/SEARS-loja-miami-orlando.jpg" alt="img" className='carusel' />
+
+      </div>
+    </Carousel> 
+    <div className='container'>
+      <h1 className='title'>Welcome to our shop</h1>
+      <p className='title'>We offer a wide range of products to suit your needs.</p>
+      <button className='shop-button'>Shop Now</button> 
+  </div>
+  </div>
+    
   );
 }
 
