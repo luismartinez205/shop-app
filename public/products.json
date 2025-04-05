@@ -1,27 +1,27 @@
 [
     {
       "id": 1,
-      "name": "Camiseta Negra",
+      "name": "Camisa Negra",
       "price": 19.99,
       "category": "Ropa",
       "description": "Camiseta de algodón 100%, talla M.",
-      "image": "https://via.placeholder.com/200x200?text=Camiseta"
+      "image": "https://yazbek.com.mx/cdn/shop/files/C0607-camisa-gabardina-ml-caballero-50algodon-50poliester-negro_1.jpg?v=1734456714"
     },
     {
       "id": 2,
-      "name": "Zapatos Deportivos",
+      "name": " Adidas Superstar - Base",
       "price": 49.99,
       "category": "Calzado",
       "description": "Zapatos cómodos para correr.",
-      "image": "https://via.placeholder.com/200x200?text=Zapatos"
+      "image": "https://m.media-amazon.com/images/I/716Inzq-uoL._AC_SL1500_.jpg"
     },
     {
       "id": 3,
-      "name": "Gorra Estilo Urbano",
+      "name": "Gorra New Era 59Fifty Club América",
       "price": 14.99,
       "category": "Accesorios",
       "description": "Gorra ajustable con estilo moderno.",
-      "image": "https://via.placeholder.com/200x200?text=Gorra"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkpkyzCfB1rsIvsTtNrtjhwALIN3lMzTpyfg&s"
     }
   ]
   
