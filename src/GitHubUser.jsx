@@ -29,6 +29,8 @@ function GitHubUser({ username }) {
       />
       <h2 className="text-primary fs-5 ">{user.name || user.login}</h2>
       <p className="text-body-secondary fs-6 text-gray-600">@{user.login}</p>
+      <p>Repositorios:{user.public_repos}</p>
+      <p>Pais:{user.location}</p>
       <p className="text-body-secondary fs-6">{user.bio}</p>
       <div className="mt-4 text-center">
         <a
