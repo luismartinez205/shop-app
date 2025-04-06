@@ -30,7 +30,7 @@ function GitHubUser({ username }) {
           rel="noopener noreferrer"
           className=""
         >
-         <img src="https://1000marcas.net/wp-content/uploads/2020/02/GitHub-logo-1.jpg" alt="" className="img-github rounded-circle mx-auto" />
+         <img src="https://1000marcas.net/wp-content/uploads/2020/02/GitHub-logo-1.jpg" alt="" className="img-github  mx-auto" />
         </a>
         <p className="text-body-secondary fs-6 text-gray-600">@{user.login}</p> 
       </div>     
