@@ -20,12 +20,28 @@ const items = [
   },
 ];
 
+const login = [
+  {
+    key: '1',
+    
+    label: <span style={{ fontWeight: 'bold' }}>Registrarse</span>,
+  },
+  {
+    key: '2',
+    label: 'Iniciar sesión',
+  },
+  {
+    key: '3',
+    label: 'Olvidé mi contraseña',
+  },
+];
+
 function Nav({ cartCount }) {
   return (
     <div className="nav">
       <div className="nav-links">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlj2kyclfog_GVLdNQRixPTDoyPVc0p7EEmg&s"
+          src="https://png.pngtree.com/png-clipart/20230116/original/pngtree-online-shopping-logo-desing-png-image_8918925.png"
           alt="Shop logo" className='nav-img'    />
         <h3>app</h3>
         <i className="bi bi-house-fill"></i>
@@ -53,7 +69,14 @@ function Nav({ cartCount }) {
         <i className="bi bi-telephone-fill"></i>
         <a href="/contact">Contact</a>
         <i className="bi bi-person-circle"></i>
-        <a href="/login">Login</a>
+        <Dropdown menu={{items:login }}>
+          <Typography.Link>
+            <Space>
+              Login
+              <DownOutlined />
+            </Space>
+          </Typography.Link>
+        </Dropdown>
       </div>
     </div>
   );

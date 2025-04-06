@@ -36,3 +36,12 @@
   height: 200px;
   object-fit: contain;
 }
+
+.logo{
+  width: 100px;
+  margin-right: 20px;
+}
+
+.App{
+  font-family: Roboto,sans-serif;
+}

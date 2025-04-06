@@ -85,7 +85,7 @@ const App = () => {
   
   return (
     
-    <div className="">
+    <div className="App">
       <Nav cartCount={cart.reduce((acc, item) => acc + item.quantity, 0)} />
 
  
@@ -112,13 +112,12 @@ const App = () => {
       <button className='shop-button'>Shop Now</button> 
   </div>
   <div className="min-h-screen bg-gray-100 p-6">
-      <h1 className="text-primary text-center">Catálogo de Productos</h1>
-
+      <h1 className="text-primary text-center me-4"><img src="https://png.pngtree.com/png-clipart/20230116/original/pngtree-online-shopping-logo-desing-png-image_8918925.png" alt="img" className='logo' />Nuestro Catálogo</h1>
       <div className="d-flex gap-2 justify-content-center mb-6 flex-wrap">
         {categorias.map((cat) => (
           <button
             key={cat}
-            className={`btn btn-info m-2 ${filter === cat ? "bg-blue-600" : "bg-gray-500"}`}
+            className={`btn btn-info m-2 fw-light ${filter === cat ? "bg-blue-600" : "bg-gray-500"}`}
             onClick={() => setFilter(cat)}
           >
             {cat}
