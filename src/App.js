@@ -9,7 +9,7 @@ import React, { useEffect, useState } from "react";
 import ProductCard from "./ProductCart";
 import CartIcon from './CarIcon'; // Import the CartIcon component
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import GitHubUser from './GitHubUser';
 
 const App = () => {
   const [products, setProducts] = useState([]);
@@ -134,6 +134,8 @@ const App = () => {
     </div>
     <CartIcon cart={cart} />
     <Cart cart={cart} removeFromCart={removeFromCart} />
+    <GitHubUser username="luismartinez205" />
+
   </div>
     
   );
