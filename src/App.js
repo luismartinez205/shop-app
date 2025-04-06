@@ -84,7 +84,8 @@ const App = () => {
   return (
     
     <div className="">
-      <Nav />
+      <Nav cartCount={cart.reduce((acc, item) => acc + item.quantity, 0)} />
+
  
   <Carousel autoplay>
       <div>
@@ -115,7 +116,7 @@ const App = () => {
         {categorias.map((cat) => (
           <button
             key={cat}
-            className={`btn btn-info ${filter === cat ? "bg-blue-600" : "bg-gray-500"}`}
+            className={`btn btn-info m-2 ${filter === cat ? "bg-blue-600" : "bg-gray-500"}`}
             onClick={() => setFilter(cat)}
           >
             {cat}

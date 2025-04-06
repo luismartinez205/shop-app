@@ -6,7 +6,7 @@ const ProductCard = ({ product, addToCart }) => {
   return (
     <>
      
-      <div className="card" style={{ width: '18rem' }} >
+      <div className="card m-2" style={{ width: '18rem' }} >
         <img src={product.image} className="card-img-top" alt={product.name} width="300" />
         <div className="card-body">
           <h5 className="card-title">{product.name}</h5>
