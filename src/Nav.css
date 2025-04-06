@@ -22,10 +22,10 @@
 
     h3{
         color: #6c757d;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         margin-left: 5px;
-    }
    
+}
 }
 
 * {
@@ -37,7 +37,7 @@
 i{
     color: #0dcaf0;
     font-size: 1.5rem;
-    margin-left: 87px;
+    margin-left: 50px;
 } 
 
 .carusel{
@@ -69,4 +69,11 @@ i{
 
 :where(.css-dev-only-do-not-override-1d4w9r2).ant-avatar {    
     background: #fff;   
+}
+
+.formu{
+    width: 39%;
+    margin: 1.5rem;
+    gap: 10px;
+    height: 34px;
 }
