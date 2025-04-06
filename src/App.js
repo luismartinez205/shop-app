@@ -11,7 +11,9 @@ import CartIcon from './CarIcon'; // Import the CartIcon component
 import 'bootstrap/dist/css/bootstrap.min.css';
 import GitHubUser from './GitHubUser';
 
+
 const App = () => {
+ 
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
 
@@ -80,7 +82,7 @@ const App = () => {
   if (filteredProducts.length === 0) {
     return <div className="min-h-screen flex items-center justify-center">No products found in this category.</div>;
   }
-
+  
   return (
     
     <div className="">
@@ -134,8 +136,7 @@ const App = () => {
     </div>
     <CartIcon cart={cart} />
     <Cart cart={cart} removeFromCart={removeFromCart} />
-    <GitHubUser username="luismartinez205" />
-
+    <GitHubUser username="luismartinez205" />    
   </div>
     
   );

@@ -26,7 +26,7 @@ function Nav({ cartCount }) {
       <div className="nav-links">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlj2kyclfog_GVLdNQRixPTDoyPVc0p7EEmg&s"
-          alt="App Logo" className='nav-img'    />
+          alt="Shop logo" className='nav-img'    />
         <h3>app</h3>
         <i className="bi bi-house-fill"></i>
         <a href="/">Home</a>
