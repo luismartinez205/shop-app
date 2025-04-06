@@ -22,6 +22,14 @@
       "category": "Accesorios",
       "description": "Gorra ajustable con estilo moderno.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkpkyzCfB1rsIvsTtNrtjhwALIN3lMzTpyfg&s"
+    },
+    {
+      "id": 4,
+      "name": "Falda Plisada de tela Suave",
+      "price": 12.99,
+      "category": "Ropa",
+      "description": "Falda de mujer fashion.",
+      "image": "https://i.pinimg.com/236x/a2/a3/d5/a2a3d5eb075ceda99bb2cd689b05cb7f.jpg"
     }
   ]
   

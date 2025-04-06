@@ -60,3 +60,8 @@
 .shop-button:hover{
   background-color: #3819c4;
 }
+
+.img-consistente {
+  height: 200px;
+  object-fit: contain;
+}

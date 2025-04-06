@@ -110,9 +110,9 @@ const App = () => {
       <button className='shop-button'>Shop Now</button> 
   </div>
   <div className="min-h-screen bg-gray-100 p-6">
-      <h1 className="text-3xl font-bold mb-6 text-center">Catálogo de Productos</h1>
+      <h1 className="text-primary text-center">Catálogo de Productos</h1>
 
-      <div className="flex gap-2 justify-center mb-6 flex-wrap">
+      <div className="d-flex gap-2 justify-content-center mb-6 flex-wrap">
         {categorias.map((cat) => (
           <button
             key={cat}
@@ -124,7 +124,7 @@ const App = () => {
         ))}
       </div>
 
-      <div className="d-flex flex-wrap justify-center gap-6">
+      <div className="d-flex flex-wrap justify-content-center align-items-stretch gap-6">
         {filteredProducts.map(product => (
           <ProductCard key={product.id} product={product} addToCart={addToCart}
           removeFromCart={removeFromCart}

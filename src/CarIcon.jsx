@@ -7,7 +7,7 @@ const CartIcon = ({ cart }) => {
   return (
     <div className="text-right mb-4">
       <Badge count={totalItems}>
-        <button className="text-2xl bg-white p-3 rounded-full shadow">
+        <button className="btn btn-light text-2xl bg-white p-3 rounded-full shadow">
           <ShoppingCartOutlined />
         </button>
       </Badge>
