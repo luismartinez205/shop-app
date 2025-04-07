@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "name": " Adidas Superstar - Base",
+      "name": "Adidas Superstar - Base",
       "price": 49.99,
       "category": "Calzado",
       "description": "Zapatos cómodos para correr.",
@@ -30,6 +30,15 @@
       "category": "Ropa",
       "description": "Falda de mujer fashion.",
       "image": "https://i.pinimg.com/236x/a2/a3/d5/a2a3d5eb075ceda99bb2cd689b05cb7f.jpg"
+    },
+    {
+      "id": 5,
+      "name": "jeans levais 724 high rise",
+      "price": 42.99,
+      "category": "Ropa",
+      "description": "jeans levais 724",
+      "image": "https://cdn.baguer.co/uploads/2024/10/jean-levis-724-high-rise-femenino-azul-128678AZ_D.jpg_Zks5S7d6UTK4fYib5LQ0om2otAcPB5iWR3XsQdNCJlkPDKr6SY.jpg"
     }
+    
   ]
   

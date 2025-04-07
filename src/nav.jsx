@@ -33,7 +33,7 @@ function Nav({ cartCount }) {
       setResultados([]);
     } else {
       const filtrados = productos.filter((prod) =>
-        prod.name.toLowerCase().includes(busqueda.toLowerCase())
+        prod.name.toLowerCase().startsWith(busqueda.toLowerCase())
       );
       setResultados(filtrados);
     }
@@ -89,6 +89,7 @@ function Nav({ cartCount }) {
           type="search"
           placeholder="Buscar productos"
           aria-label="Search"
+          autoComplete='disable'
           value={busqueda}
           onChange={(e) => setBusqueda(e.target.value)}
         />
@@ -98,9 +99,10 @@ function Nav({ cartCount }) {
 
         {busqueda && resultados.length > 0 && (
           <ul className="list-group position-absolute mt-2 w-100 shadow" style={{ top: '100%', zIndex: 1000 }}>
-            {resultados.map((prod) => (
+            {resultados.map((prod, index) => (
               <li key={prod.id} className="list-group-item list-group-item-action">
                 {prod.name}
+                <img src={prod.image} alt="" className="img-thumbnail" />
               </li>
             ))}
           </ul>
