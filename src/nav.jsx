@@ -85,14 +85,14 @@ function Nav({ cartCount }) {
 
       <form className="d-flex formu position-relative" role="search" onSubmit={(e) => e.preventDefault()}>
         <input
-          className="form-control me-2"
+          className="form-control me-2 fw-light"
           type="search"
           placeholder="Buscar productos"
           aria-label="Search"
           value={busqueda}
           onChange={(e) => setBusqueda(e.target.value)}
         />
-        <button className="btn btn-outline-info" type="submit">
+        <button className="btn btn-outline-info fw-bold" type="submit">
           Buscar
         </button>
 

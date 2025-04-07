@@ -21,9 +21,9 @@ function GitHubUser({ username }) {
   if (!user) return <p>No se encontró el usuario</p>;
 
   return (
-    <div className="d-flex flex-col align-items-center justify-content-center p-4 ">    
+    <div className="d-flex flex-col align-items-center justify-content-center">    
          
-      <div className="mt-4 text-center">
+      <div className="text-center">
         <a
           href={user.html_url}
           target="_blank"
